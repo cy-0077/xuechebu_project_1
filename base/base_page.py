@@ -23,7 +23,11 @@ class BasePage(object):
         return element
 
     def click_func(self, location):
-        """元素点击方法"""
+        """
+        元素点击方法
+        :param location:
+        :return:
+        """
         # 定位目标元素
         element = self.find_element_func(location)
         # 调用点击方法
